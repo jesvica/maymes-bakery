@@ -1,3 +1,7 @@
+const content = document.createElement("div").className = "timeline-item";
+
+
+
 export const dates = [
   {
     title: "Yeast",

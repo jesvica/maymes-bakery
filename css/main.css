@@ -3,7 +3,7 @@
 /* Page title */
 h1 {
   font-family: "Dancing Script", cursive;
-  font-size: 50px;
+  font-size: 70px;
   color: #212121;
 }
 
@@ -11,8 +11,13 @@ body {
   background-color: #d1e8e4;
 }
 
-/* The div that contains all elements */
+/* The div that contains all summary cards */
 .timeline-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto;
+    justify-items: center;
+    margin-top: 50px;
 }
 
 /* All timeline elements */
@@ -21,7 +26,7 @@ body {
   height: fit-content;
   padding: 25px 20px;
   text-align: center;
-  margin: 40px 100px;
+  margin: 20px;
   box-shadow: 0 10px 20px rgb(43, 48, 58, 0.5);
   border-radius: 10px;
 }
@@ -52,6 +57,7 @@ body {
 .timeline-item:nth-child(even) {
   background-color: rgb(244, 162, 89);
   color: #fff;
+  margin-top: 10rem;
 }
 
 .timeline-item:nth-of-type(odd) {
@@ -83,10 +89,11 @@ body {
   content: "";
   background: black;
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
   height: 95%;
   width: 2px;
+  transform: translateX(-50%);
 }
 
 /*------------- Modal Box ----------------*/

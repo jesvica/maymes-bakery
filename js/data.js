@@ -1,7 +1,3 @@
-const content = document.createElement("div").className = "timeline-item";
-
-
-
 export const dates = [
   {
     title: "Yeast",
@@ -45,7 +41,7 @@ export const dates = [
       "Although the earliest archaeological evidence for wheat seeds crushed between simple millstones to make flour dates to 6000 BC. The Romans were the first to grind seeds on cone mills. In 1779, at the beginning of the Industrial Era, the first steam mill was erected in London.",
     image:
       "https://www.conserve-energy-future.com/wp-content/uploads/2021/07/wheat-and-flour.webp",
-    summary: "The first steam mill was erected in London",
+    summary: "The first steam mill was erected in London, the first steam mill was erected in london",
   },
   {
     title: "Baking powder",
@@ -56,6 +52,15 @@ export const dates = [
       "https://homecookworld.com/wp-content/uploads/2021/05/Can-I-use-baking-powder-instead-of-baking-soda-780x520.jpg?ezimgfmt=ng%3Awebp%2Fngcb94%2Frs%3Adevice%2Frscb94-1",
     summary:
       "The first modern version of baking powder was discovered and manufactured by British chemist Alfred Bird",
+  },
+  {
+    title: "Synthetic organic dye",
+    date: "1856 AD",
+    fullDescription:
+      "William Henry Perkin discovered the first synthetic organic dye, called mauve, used to colour foods, drugs, and cosmetics.",
+    image:
+      "https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-project-master/default/dw13ab30a5/images/project/WLPROJ-9083/RoMaCa_43176%2001.jpg?sw=800&sh=800",
+    summary: "The first synthetic organic dye was discovered",
   },
   {
     title: "Synthetic organic dye",

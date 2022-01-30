@@ -117,7 +117,6 @@ body {
   left: 50%;
   height: 290%;
   width: 2px;
-  transform: translateX(-50%);
 }
 
 /*------------- Modal Box ----------------*/
@@ -179,4 +178,36 @@ body {
   border-left: 2px solid rgba(92, 83, 86, 0.5);
   border-right: 2px solid rgba(226, 220, 214, 0.5);
   border-bottom: 2px solid rgba(226, 220, 214, 0.5);
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #e1eeec;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .timeline-intro {
+    font-size: 17px;
+  }
+
+  .timeline-container {
+    grid: none;
+    display: inline-block;
+  }
+
+  .timeline-item {
+    margin: 40px;
+  }
+
+  .timeline-item:nth-child(even) {
+    margin-top: 0;
+  }
+
+  .timeline::before {
+    display: none;
+  }
 }

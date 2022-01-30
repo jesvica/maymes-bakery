@@ -6,6 +6,11 @@ heading.className = "timeline-heading";
 heading.textContent = "Mayme's Bakery";
 timeline.appendChild(heading);
 
+const timelineIntro = document.createElement("h3");
+timelineIntro.className = "timeline-intro";
+timelineIntro.textContent = "Welcome to Mayme's Bakery! Find out more about the history of baking and cakes below.";
+timeline.appendChild(timelineIntro);
+
 
 const timelineContainer = document.createElement("div");
 timelineContainer.className = "timeline-container"

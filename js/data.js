@@ -41,7 +41,7 @@ export const dates = [
       "Although the earliest archaeological evidence for wheat seeds crushed between simple millstones to make flour dates to 6000 BC. The Romans were the first to grind seeds on cone mills. In 1779, at the beginning of the Industrial Era, the first steam mill was erected in London.",
     image:
       "https://www.conserve-energy-future.com/wp-content/uploads/2021/07/wheat-and-flour.webp",
-    summary: "The first steam mill was erected in London, the first steam mill was erected in london",
+    summary: "The first steam mill was erected in London",
   },
   {
     title: "Baking powder",

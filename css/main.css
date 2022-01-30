@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Montserrat&family=Raleway&family=Space+Mono&display=swap");
 
+/* Page title */
 h1 {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
@@ -10,67 +11,112 @@ body {
   background-color: #d1e8e4;
 }
 
+p {
+}
+
+/* The div that contains all elements */
 .timeline-container {
-
 }
 
-.timeline-item:nth-child(even) {
-  background-color: gray;
-}
-
-.timeline-item:nth-child(odd) {
-  color: white;
-  background-color: black;
-  float: right;
-}
-
+/* All timeline elements */
 .timeline-item {
-  margin: 25px;
+  width: 15rem;
+  height: fit-content;
+  padding: 25px 20px;
   text-align: center;
-  align-content: space-around;
-  display: inline-block; 
-  width: 45%;
+  margin: 40px 100px;
+  box-shadow: 0 10px 20px rgb(43, 48, 58, 0.5);
+  border-radius: 10px;
+}
+
+.timeline-intro {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin: 20px;
+}
+
+/* Adding font family to elements */
+.timeline-item-title,
+.timeline-item-summary,
+.timeline-item-date {
+  font-family: "Lato", sans-serif;
 }
 
 .timeline-item-title {
-  font-family: "Space Mono", monospace;
+  font-size: 28px;
 }
 
+.timeline-item-date {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.timeline-item:nth-child(even) {
+  background-color: rgb(244, 162, 89);
+  color: #fff;
+}
+
+.timeline-item:nth-of-type(odd) {
+  background-color: rgb(241, 156, 187);
+  color: #fff;
+}
+
+/* Title for each ingredient */
 .timeline-heading {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Brief summary of ingredient */
 .timeline-item-summary {
   font-family: "Montserrat", sans-serif;
 }
 
-.timeline::before {
-    /*this is a vertical line */
-    content: "";
-    background: black;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    height: 90%;
-    width: 2px;
-  }
+/* More info buttom */
+.timeline-item-more-info {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
 
+/* Vertical Line for timeline */
+.timeline::before {
+  content: "";
+  background: black;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  height: 95%;
+  width: 2px;
+}
+
+/*------------- Modal Box ----------------*/
+
+/*Pop out modal box*/
 #modal-container {
   z-index: 2;
   width: 50%;
-  height: 50%;
-  background-color: lightslategray;
+  height: fit-content;
+  background-color: #56876d;
+  color: #fff;
   position: absolute;
   top: 50%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
-  padding: 10px;
+  padding: 20px;
+  border-radius: 30px;
 }
 
 #modal-image {
   height: 50%;
   width: 50%;
+}
+
+#modal-full-description,
+#modal-date,
+#modal-title {
+  font-family: "Montserrat", sans-serif;
 }

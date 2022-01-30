@@ -63,12 +63,12 @@ export const dates = [
     summary: "The first synthetic organic dye was discovered",
   },
   {
-    title: "Synthetic organic dye",
-    date: "1856 AD",
+    title: "Parchment Paper",
+    date: "2000 AD",
     fullDescription:
-      "William Henry Perkin discovered the first synthetic organic dye, called mauve, used to colour foods, drugs, and cosmetics.",
+      "French scientists Jean-André Poumarède and Louis Figuier pioneered a chemical treatment process for plant-based paper that retained many of the desirable qualities of animal-based parchment.",
     image:
-      "https://www.wilton.com/dw/image/v2/AAWA_PRD/on/demandware.static/-/Sites-wilton-project-master/default/dw13ab30a5/images/project/WLPROJ-9083/RoMaCa_43176%2001.jpg?sw=800&sh=800",
-    summary: "The first synthetic organic dye was discovered",
+      "https://cdn.shopify.com/s/files/1/0502/4795/8714/files/parchment_paper_dot_com_history_1.jpg?v=1605905849",
+    summary: "A non-animal alternative for parchment was discovered",
   },
 ];

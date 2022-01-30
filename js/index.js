@@ -38,7 +38,7 @@ dates.map((item) => {
 
    const timelineButton = document.createElement("button");
    timelineButton.className = "timeline-item-more-info";
-   timelineButton.textContent = "more info";
+   timelineButton.textContent = "Find out more!";
    timelineItem.appendChild(timelineButton);
 
    const moreInfo = timelineItem.querySelector(".timeline-item-more-info");
@@ -74,7 +74,7 @@ function openModal(item) {
 
     const modalCloseButton = document.createElement("button");
     modalCloseButton.id = "modal-close-button";
-    modalCloseButton.textContent = "X";
+    modalCloseButton.textContent = "Close";
     modalContainer.appendChild(modalCloseButton);
     modalCloseButton.onclick = function() {
         modalContainer.remove()

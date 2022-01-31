@@ -6,6 +6,8 @@
 
 https://maymesbakerygroupb.netlify.app/
 
+Co-authored by members of the group
+
 # JavaScript Assessment
 
 For your unit 3 assessment you are required to work with your study group as an agile team to create an animated interactive timeline for Mayme's Bakery. The interactivity (behaviour/actions) of timeline should be agreed upon by all group members.

@@ -1,7 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ec38a695-8d14-4d07-804f-b12f33ff3e26/deploy-status)](https://app.netlify.com/sites/maymes-bakery/deploys)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cf8e9d3f-33f7-4bd2-bd6c-e29c41b05e1f/deploy-status)](https://app.netlify.com/sites/maymesbakerygroupb/deploys)
-
 #URL FOR OUR WEBSITE
 
 https://maymesbakerygroupb.netlify.app/
